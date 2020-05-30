@@ -37,8 +37,8 @@ def send_mail():
     
     msg = f"Subject: {subject}\n\n{body}"
     server.sendmail (
-        "From Mail Recipient",
-        "To Mail Recipient",
+        "From: Mail Recipient",
+        "To: Mail Recipient",
         msg)
     print("Hey Mail has Been Sent!!")
     server.quit()
